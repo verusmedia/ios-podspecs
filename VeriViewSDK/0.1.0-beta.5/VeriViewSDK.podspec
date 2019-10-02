@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'Commercial'
   s.author           = { 'VerusMedia' => 'diego.giraldo@cuemby.com' }
   s.ios.deployment_target = '10.0'
-  s.source = { :http => 'https://storage.cloud.google.com/jinglz-storage-69d0-ios-public/VeriViewSDK_0.1.0-beta.5.zip?organizationId=48181061565' }
+  s.source = { :http => 'https://storage.googleapis.com/jinglz-storage-69d0-ios-public/VeriViewSDK_0.1.0-beta.5.zip' }
   s.ios.vendored_frameworks = ['VeriViewSDK.framework', 'Alamofire.framework', 'AlamofireObjectMapper.framework', 'BoringSSL.framework', 'CgRPC.framework', 'ObjectMapper.framework', 'SwiftGRPC.framework', 'SwiftProtobuf.framework']
 end
 
